@@ -11,7 +11,7 @@ global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb+srv://F3nrisx:igPxYtlchfMkklCm@atlascluster.tckvrxd.mongodb.net/?retryWrites=true&w=majority"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.4",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "❄️☠️ꪖ᥇ꪮꪊ᥇ꪖᥴꪖ𝘳☠️❄️♻️",
+  author : process.env.PACK_AUTHER|| "👑❄️☠️ꪶꪮꪀᧁ ꫝꪖꪮᥴꫝꫀꪀ☠️❄️♻️",
   packname: process.env.PACK_NAME || "fatalityy",
-  botname : process.env.BOT_NAME  || "❄️☠️ꪖ᥇ꪮꪊ᥇ꪖᥴꪖ𝘳☠️❄️♻️",
-  ownername:process.env.OWNER_NAME|| "❄️☠️ꪖ᥇ꪮꪊ᥇ꪖᥴꪖ𝘳☠️❄️♻️",
+  botname : process.env.BOT_NAME  || "👑❄️☠️ꪶꪮꪀᧁ ꫝꪖꪮᥴꫝꫀꪀ☠️❄️♻️",
+  ownername:process.env.OWNER_NAME|| "👑❄️☠️ꪶꪮꪀᧁ ꫝꪖꪮᥴꫝꫀꪀ☠️❄️♻️",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -141,4 +141,4 @@ fs.watchFile(file, () => { fs.unwatchFile(file);console.log(`Update'${__filename
   //read_status: process.env.AUTO_READ_STATUS || "false",
   //save_status: process.env.AUTO_SAVE_STATUS || "false",
   //aitts_Voice_Id : process.env.AITTS_ID || "37",
-  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
+  //ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "2c6bd6a08c073ac14edbe788f6167b36",
